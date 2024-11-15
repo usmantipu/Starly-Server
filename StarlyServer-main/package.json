@@ -1,0 +1,30 @@
+{
+	"author": "Khuram Iftikhar",
+	"license": "ISC",
+	"description": "starlyserver.",
+	"dependencies": {
+		"axios": "^1.7.7",
+		"dotenv": "^16.4.5",
+		"express": "^4.20.0",
+		"firebase-admin": "^11.11.1",
+		"firebase-functions": "^4.9.0",
+		"mongoose": "^8.7.2"
+	},
+	"name": "starlyserver",
+	"version": "1.0.0",
+	"main": "Dist/app.js",
+	"type": "module",
+	"devDependencies": {
+		"@types/mongoose": "^5.11.96",
+		"nodemon": "^3.0.2",
+		"typescript": "^5.3.3"
+	},
+	"scripts": {
+		"start": "npx tsc && node Dist/app.js",
+		"dev": "npx tsc && nodemon Dist/app.js",
+		"nodemon": "nodemon Dist/app.js"
+	},
+	"engines": {
+		"node": "18.x"
+	}
+}
